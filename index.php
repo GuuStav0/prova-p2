@@ -1,5 +1,6 @@
 <?php
 require_once "./assets/actions/conexao.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -18,7 +19,11 @@ require_once "./assets/actions/conexao.php";
         <section>
             <h1>Lista de Jogos</h1>
             <div>
-                <?php ?>
+                <?php 
+                    while($a < $b){
+
+                    }
+                ?>
             </div>
         </section>
     </main>
